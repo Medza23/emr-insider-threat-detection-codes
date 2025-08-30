@@ -1,0 +1,63 @@
+site_name: Healthcare System Synthetic Data Generator
+
+theme:
+  name: material
+
+  custom_dir: overrides
+
+  palette:
+    scheme: default
+    primary: black
+    accent: cyan
+
+  font:
+    text: Recursive
+    code: Recursive Mono
+
+  features:
+    - content.code.copy
+    - content.code.annotate
+    - navigation.sections
+    - navigation.tabs
+    - navigation.expand
+    - toc.integrate
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+
+nav:
+  - Overview:
+    - index.md 
+  - Simulation Details:
+    - sim.md 
+  - Benchmark Dataset:
+    - vis.md 
+
+
+extra_javascript:
+  - https://cdn.plot.ly/plotly-3.0.1.min.js
+  - js/vis.js
+
+extra_css:
+    - css/styles.css
+
+markdown_extensions:
+  - footnotes
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+plugins:
+  - minify:
+      minify_html: true
+  - search
