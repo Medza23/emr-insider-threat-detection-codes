@@ -1,0 +1,23 @@
+{
+    "model_name": "XGBoost",
+    "trained_on_rows": 500000,
+    "features": [
+        "has_appointment",
+        "has_observation",
+        "has_encounter",
+        "has_btg_access",
+        "has_care_access",
+        "num_btg_events",
+        "num_care_events",
+        "avg_time_between_events"
+    ],
+    "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "accuracy": 1.0
+    },
+    "train_time_sec": 0.974,
+    "predict_time_sec": 0.042,
+    "last_trained": "2025-08-13T12:13:09.146379"
+}

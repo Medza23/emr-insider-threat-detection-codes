@@ -1,0 +1,2 @@
+Model,Precision,Recall,F1-score,Accuracy,Train time (s),Pred time (s),Predicted Normal,Predicted Anomaly,Timestamp
+XGBoost,1.0,1.0,1.0,1.0,0.974,0.042,117148,32852,2025-08-13T12:13:09.143550
