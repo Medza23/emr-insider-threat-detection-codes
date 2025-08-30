@@ -1,0 +1,4 @@
+Model,Precision,Recall,F1-score,Accuracy,Train time (s),Pred time (s),Predicted Normal,Predicted Anomaly
+SVM,0.311,0.889,0.461,0.544,0.368,0.005,27992,47008
+KNN,0.695,0.356,0.471,0.824,0.208,5.938,66560,8440
+NaiveBayes,0.276,0.594,0.377,0.569,0.179,0.005,39584,35416

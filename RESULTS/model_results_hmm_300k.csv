@@ -1,0 +1,2 @@
+Model,Precision,Recall,F1-score,Accuracy,Train time (s),Pred time (s),Predicted Normal,Predicted Anomaly
+HMM,0.001,0.0,0.0,0.743,3.018,5.679,86621,3379

@@ -1,0 +1,2 @@
+Model,Precision,Recall,F1-score,Accuracy,Train time (s),Pred time (s),Predicted Normal,Predicted Anomaly
+RNN,0.723,0.296,0.42,0.821,322.577,17.105,136551,13449

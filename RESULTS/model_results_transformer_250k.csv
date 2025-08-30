@@ -1,0 +1,2 @@
+Model,Precision,Recall,F1-score,Accuracy,Train time (s),Pred time (s),Predicted Normal,Predicted Anomaly
+Transformer,0.578,0.187,0.283,0.792,363.714,10.492,69664,5336
