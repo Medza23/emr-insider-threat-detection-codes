@@ -1,2 +1,3 @@
-Model,Precision,Recall,F1-score,Accuracy,Train time (s),Pred time (s),Predicted Normal,Predicted Anomaly
-HMM,0.029,0.005,0.009,0.743,3.249,9.805,143972,6028
+version https://git-lfs.github.com/spec/v1
+oid sha256:6aa491cc8ecdba40a69e2dd2b724e234f80e0cfd35b96f3c1a7752db8809093b
+size 157

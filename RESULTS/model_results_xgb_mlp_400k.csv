@@ -1,3 +1,3 @@
-Model,Precision,Recall,F1-score,Accuracy,Train time (s),Pred time (s),Predicted Normal,Predicted Anomaly
-XGBoost,0.69,0.392,0.5,0.828,0.663,0.06,105059,14941
-MLP,0.707,0.368,0.484,0.828,35.126,0.054,106291,13709
+version https://git-lfs.github.com/spec/v1
+oid sha256:43797e5e3f74d704419f05654c78d0d658f62c47be9c4475538f621958fe1be0
+size 212
